@@ -1,0 +1,34 @@
+.dropdown {
+  width: 200px;
+  height: 170px;
+  position: absolute;
+  padding: 10px 20px;
+  top: 75px;
+  left: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  list-style: none;
+}
+
+.dropdown li {
+  font-size: 13px;
+  line-height: 50px;
+}
+
+.dropdown img {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.dropdown button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  color: #a62626;
+  font-weight: 900;
+}

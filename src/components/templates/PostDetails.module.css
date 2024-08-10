@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.card {
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  /* background-color: aqua; */
+}
+
+.cardImage {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  width: 700px;
+  height: auto;
+  margin: 0 auto 60px;
+  border-radius: 3px;
+}
+
+.info div {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.info p {
+  line-height: 50px;
+}
+
+.info p span {
+  color: #a62626;
+}

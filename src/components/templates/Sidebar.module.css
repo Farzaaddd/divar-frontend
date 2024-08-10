@@ -1,0 +1,20 @@
+.sidebar {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.sidebar li {
+  cursor: pointer;
+  display: flex;
+  margin: 20px 0;
+}
+
+.sidebar li p {
+  font-weight: 200px;
+  margin-right: 10px;
+  color: grey;
+}
+
+.sidebar li p.active {
+  color: #a62626 !important;
+}
